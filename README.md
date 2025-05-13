@@ -5,7 +5,7 @@ Esta aplicação permite consultar a temperatura atual em graus Celsius, Fahrenh
 ## Executando a aplicação na nuvem
 * O serviço está disponível na nuvem, no host `lilnk run code` e endpoint `/temp`. Consulte pelo curl abaixo (ajustar o CEP):
     ```bash
-    curl http://linkruncode/temp?CEP=13098401
+    curl https://weather-by-cep-682176487323.us-central1.run.app/temp?CEP=13098401
     ```
     
 * Se preferir, use o modelo disponível em `api/temp_cloudrun.http` para consumir o seviço.
