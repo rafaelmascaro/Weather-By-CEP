@@ -1,2 +1,2 @@
-GET link rn HTTP/1.1
-Host: link run code
+GET https://weather-by-cep-682176487323.us-central1.run.app/temp?CEP=13098401 rn HTTP/1.1
+Host: https://weather-by-cep-682176487323.us-central1.run.app/ run code
